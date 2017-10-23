@@ -1084,7 +1084,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
-		"xpos"				"c265"
+		"xpos"				"9999"		//c265
 		"ypos"				"c15"
 		"zpos"				"6"
 		"wide"				"50"
@@ -1122,6 +1122,54 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
+	}
+	
+	"ShowPaintkitsButton"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"ShowPaintkitsButton"
+		"xpos"				"c265"
+		"ypos"				"c15"
+		"zpos"				"6"
+		"wide"				"50"
+		"tall"				"50"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"Command"			"paintkit_preview"
+		"Default"			"0"
+		"font"				"MenuKeys"
+		"scaleImage"		"1"
+		"activeimage"		"paintkit_tool"
+		"inactiveimage"		"paintkit_tool_bw"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}	
+	"ShowPaintkitsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ShowPaintkitsLabel"
+		"font"			"HudFontSmallestBold"
+		"labelText"		"#PaintkitTitle"
+		"textAlignment"	"north"
+		"xpos"			"9999"
+		"ypos"			"5"
+		"zpos"			"7"
+		"wide"			"120"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+
+		"pin_to_sibling"               "ShowPaintkitsButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6" 
 	}
 	
 	"ClassLabel"
@@ -2529,5 +2577,18 @@
 		"tall"				"400"
 		"zpos"				"500"
 		"visible"			"1"
+	}
+	
+	"InspectionPanel"
+	{
+		"fieldName"		"InspectionPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"2000"
+		"wide"			"f0"
+		"tall"			"f100"
+		"visible"		"0"
+		"proportionaltoparent"	"1"
+		"bgcolor_override"	"30 25 25 245"
 	}
 }

@@ -89,21 +89,21 @@
 	}
 				
 	"FooterLine"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"HeaderLine"
-			"xpos"			"0"
-			"ypos"			"420"
-			"zpos"			"2"
-			"wide"			"f0"
-			"tall"			"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
-		}		
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HeaderLine"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"NoBorder"
+		"bgcolor_override"		"Base Color"
+	}		
 	
 	"Sheet"
 	{
@@ -112,8 +112,9 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"24"
 		"transition_time" "0"
+		"yoffset"			"10"
 		
 		"HeaderLine"
 		{
@@ -135,9 +136,9 @@
 		"tabskv"
 		{
 			"textinsetx"		"25"
+			"ypos"				"30"
 			"textAlignment"		"center"
-			"font"				"Cerbetica32"
-			"ypos"				"50"
+			"font"				"2Cerbetica22"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"	
 			"paintbackground"	"1"

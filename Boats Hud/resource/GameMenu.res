@@ -1,32 +1,5 @@
 "GameMenu" [$WIN32]
 {
-	"VersionNumber"
-	{
-		"label" "BY BOAT OF SIMPLYTF" 
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
-	"CasualButton"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
-	"MvMButton"
-	{
-		"label" "MvM" 
-		"command" "play_mvm"
-		"subimage" ""
-		"OnlyAtMenu" "0"
-	}
-    "CompetitiveButton"
-    {
-        "label" "Competitive" 
-        "command" "play_competitive"
-        "subimage" "glyph_practice"
-        "OnlyAtMenu" "0"
-    }
 	"ServerBrowserButton"
 	{
 		"label" "Servers" 

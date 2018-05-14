@@ -282,7 +282,8 @@
 		
 		if_match
 		{
-			"zpos"				"4"
+			"zpos"				"5"
+			"ypos"				"8"
 		}
 		
 		"TimePanelValue"
@@ -303,8 +304,7 @@
 			
 			if_match
 			{
-				"font"			"Cerbetica12"
-				"ypos"			"3"
+				"font"		"Cerbetica12"
 			}
 		}
 	}

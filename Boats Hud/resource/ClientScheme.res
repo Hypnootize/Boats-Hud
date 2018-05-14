@@ -57,7 +57,7 @@ Scheme
 		"Flashing Uber Color2"					"125 172 255 255"
 	
 		"Heal Numbers"							"48 255 48 255"
-		"Damage Numbers"						"72 255 255 255"
+		"Damage Numbers"						"255 255 255 255"
 		
 		//'Last DamageHeal Info' refers to the number that appears above hp
 		"Last DamageHeal Info"					"225 225 225 255"
